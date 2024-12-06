@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table of Elements</title>
+    <link rel="icon" href="./assets/icon.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/PTstyle.css">
+
+    <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(18, 1fr); /* 18 equal-width columns */
+      grid-gap: 8px;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+</style>
+</head>
+<body>
+    <header class="d-flex justify-content-center align-items-center">
+        <h1 class="PT-title text-center" id="neon">Periodic Table of Elements</h1>
+        <p class="cred-text">MvPorcalla</p>
+    </header>
+    <main>
+        <section>
+            <div class="container-fluid">
+                <div class="periodic-table  mx-4">
+                    
+                    <!-- ================================== First Row ================================== -->
+                    <div class="row">
+                        <div class="grid-container">
+                            <div class="col custom-col" style="grid-column: 1;">
+                                <div class="gas li Nonmetals">
+                                    <span class="number">1</span>
+                                    <div class="symbol">H</div>
+                                    <div class="mass">1.008</div>
+                                    <p class="name">Hydrogen</p>
+                                </div>
+                            </div>
+
+                            <!-- Legend -->
+                            <div class="col custom-col" style="grid-column: 4;">
+                                <div class="gas li">
+                                    <span class="number">1</span>
+                                    <div class="symbol">H</div>
+                                    <div class="mass">1.008</div>
+                                    <p class="name">Hydrogen</p>
+                                </div>
+                            </div>
+
+                            <!-- Legend text -->
+                            <div class="col custom-col" style="grid-column: 5 / 7;">
+                                <div class="">
+                                    <p class="legend-p mt-2">← Atomic No.</p> 
+                                    <p class="legend-p">← Symbol</p> 
+                                    <p class="legend-p">← Atomic Mass</p> 
+                                    <p class="legend-p">← Name</p> 
+                                </div>
+                            </div>
+
+                            <div class="col custom-col" style="grid-column: 18;">
+                                <div class="gas li Noble">
+                                    <span class="number">2</span>
+                                    <div class="symbol">He</div>
+                                    <div class="mass">4.0026</div>
+                                    <p class="name">Helium</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ================================== Second Row ================================== -->
+                    <div class="row ">
+                        <div class="grid-container">
+                            <!-- Lithium -->
+                            <div class="col custom-col" style="grid-column: 1;">
+                                <div class="gas li Alkali">
+                                    <span class="number">3</span>
+                                    <div class="symbol">Li</div>
+                                    <div class="mass">6.94</div>
+                                    <p class="name">Lithium</p>
+                                </div>
+                            </div>
+
+                            <!-- Beryllium -->
+                            <div class="col custom-col" style="grid-column: 2;">
+                                <div class="gas li Alkaline">
+                                    <span class="number">4</span>
+                                    <div class="symbol">Be</div>
+                                    <div class="mass">9.0122</div>
+                                    <p class="name">Beryllium</p>
+                                </div>
+                            </div>
+
+                    <!-- ================================== Legend ======================================= -->
+
+                             <!-- Legend -->
+                             <div class="col custom-col" style="grid-column: 6;">
+                                <div class="text-center">
+                                    <div class="legend-bar alkali-color Alkali"></div>
+                                    <p class="legend-text">Alkali Metal</p>
+                                </div>
+                            </div>
+                            <!-- Legend -->
+                            <div class="col custom-col" style="grid-column: 7;">
+                                <div class="text-center">
+                                    <div class="legend-bar alkaline-color Alkaline"></div>
+                                    <p class="legend-text">Alkaline Earth Metals</p>
+                                </div>
+                            </div>
+                            <!-- Legend -->
+                            <div class="col custom-col" style="grid-column: 8;">
+                                <div class="text-center">
+                                    <div class="legend-bar Transition_Metals-color Transition"></div>
+                                    <p class="legend-text">Transition Metals</p>
+                                </div>
+                            </div>
+                            <!-- Legend -->
+                            <div class="col custom-col" style="grid-column: 9;">
+                                <div class="text-center">
+                                    <div class="legend-bar Basicmetal-color Basicmetal"></div>
+                                    <p class="legend-text">Basic Metals</p>
+                                </div>
+                            </div>
+                            <!-- Legend -->
+                            <div class="col custom-col" style="grid-column: 10;">
+                                <div class="text-center">
+                                    <div class="legend-bar Semimetals-color Semimetals"></div>
+                                    <p class="legend-text">Semimetals</p>
+                                </div>
+                            </div>
+
+                    <!-- ================================================================================== -->
+
+
+                            <!-- Boron -->
+                            <div class="col custom-col" style="grid-column: 13;">
+                                <div class="gas li Semimetals">
+                                    <span class="number">5</span>
+                                    <div class="symbol">B</div>
+                                    <div class="mass">10.81</div>
+                                    <p class="name">Boron</p>
+                                </div>
+                            </div>
+
+                            <!-- Carbon -->
+                            <div class="col custom-col" style="grid-column: 14;">
+                                <div class="gas li Nonmetals">
+                                    <span class="number">6</span>
+                                    <div class="symbol">C</div>
+                                    <div class="mass">12.011</div>
+                                    <p class="name">Carbon</p>
+                                </div>
+                            </div>
+
+                            <!-- Nitrogen -->
+                            <div class="col custom-col" style="grid-column: 15;">
+                                <div class="gas li Nonmetals">
+                                    <span class="number">7</span>
+                                    <div class="symbol">N</div>
+                                    <div class="mass">14.007</div>
+                                    <p class="name">Nitrogen</p>
+                                </div>
+                            </div>
+
+                            <!-- Oxygen -->
+                            <div class="col custom-col" style="grid-column: 16;">
+                                <div class="gas li Nonmetals">
+                                    <span class="number">8</span>
+                                    <div class="symbol">O</div>
+                                    <div class="mass">15.999</div>
+                                    <p class="name">Oxygen</p>
+                                </div>
+                            </div>
+
+                            <!-- Fluorine -->
+                            <div class="col custom-col" style="grid-column: 17;">
+                                <div class="gas li Halogens">
+                                    <span class="number">9</span>
+                                    <div class="symbol">F</div>
+                                    <div class="mass">18.998</div>
+                                    <p class="name">Fluorine</p>
+                                </div>
+                            </div>
+
+                            <!-- Neon -->
+                            <div class="col custom-col" style="grid-column: 18;">
+                                <div class="gas li Noble">
+                                    <span class="number">10</span>
+                                    <div class="symbol">Ne</div>
+                                    <div class="mass">20.180</div>
+                                    <p class="name">Neon</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- ================================== Third Row ================================== -->
+
+                    <div class="row ">
+                        <div class="grid-container">
+
+                            <!-- Sodium -->
+                            <div class="col custom-col" style="grid-column: 1;">
+                                <div class="gas li Alkali">
+                                    <span class="number">11</span>
+                                    <div class="symbol">Na</div>
+                                    <div class="mass">22.990</div>
+                                    <p class="name">Sodium</p>
+                                </div>
+                            </div>
+
+                            <!-- Magnesium -->
+                            <div class="col custom-col" style="grid-column: 2;">
+                                <div class="gas li Alkaline">
+                                    <span class="number">12</span>
+                                    <div class="symbol">Mg</div>
+                                    <div class="mass">24.305</div>
+                                    <p class="name">Magnesium</p>
+                                </div>
+                            </div>
+
+
+                    <!-- ================================== Legend ======================================= -->
+
+                             <!-- Legend -->
+                             <div class="col custom-col" style="grid-column: 6;">
+                                <div class="text-center">
+                                    <div class="legend-bar Nonmetals-color Nonmetals"></div>
+                                    <p class="legend-text">Nonmetals</p>
+                                </div>
+                            </div>
+                            <!-- Legend -->
+                            <div class="col custom-col" style="grid-column: 7;">
+                                <div class="text-center">
+                                    <div class="legend-bar Halogens-color Halogens"></div>
+                                    <p class="legend-text">Halogens</p>
+                                </div>
+                            </div>
+                            <!-- Legend -->
+                            <div class="col custom-col" style="grid-column: 8;">
+                                <div class="text-center">
+                                    <div class="legend-bar Noble_Gases-color Noble"></div>
+                                    <p class="legend-text">Noble Gases</p>
+                                </div>
+                            </div>
+                            <!-- Legend -->
+                            <div class="col custom-col" style="grid-column: 9;">
+                                <div class="text-center">
+                                    <div class="legend-bar Lanthanides-color Lanthanides"></div>
+                                    <p class="legend-text">Lanthanides</p>
+                                </div>
+                            </div>
+                            <!-- Legend -->
+                            <div class="col custom-col" style="grid-column: 10;">
+                                <div class="text-center">
+                                    <div class="legend-bar Actinides-color Actinides"></div>
+                                    <p class="legend-text">Actinides</p>
+                                </div>
+                            </div>
+
+                    <!-- ================================================================================== -->
+
+
+                            <!-- Aluminum -->
+                            <div class="col custom-col" style="grid-column: 13;">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">13</span>
+                                    <div class="symbol">Al</div>
+                                    <div class="mass">26.982</div>
+                                    <p class="name">Aluminum</p>
+                                </div>
+                            </div>
+
+                            <!-- Silicon -->
+                            <div class="col custom-col" style="grid-column: 14;">
+                                <div class="gas li Semimetals">
+                                    <span class="number">14</span>
+                                    <div class="symbol">Si</div>
+                                    <div class="mass">28.085</div>
+                                    <p class="name">Silicon</p>
+                                </div>
+                            </div>
+
+                            <!-- Phosphorus -->
+                            <div class="col custom-col" style="grid-column: 15;">
+                                <div class="gas li Nonmetals">
+                                    <span class="number">15</span>
+                                    <div class="symbol">P</div>
+                                    <div class="mass">30.974</div>
+                                    <p class="name">Phosphorus</p>
+                                </div>
+                            </div>
+
+                            <!-- Sulfur -->
+                            <div class="col custom-col" style="grid-column: 16;">
+                                <div class="gas li Nonmetals">
+                                    <span class="number">16</span>
+                                    <div class="symbol">S</div>
+                                    <div class="mass">32.06</div>
+                                    <p class="name">Sulfur</p>
+                                </div>
+                            </div>
+
+                            <!-- Chlorine -->
+                            <div class="col custom-col" style="grid-column: 17;">
+                                <div class="gas li Halogens">
+                                    <span class="number">17</span>
+                                    <div class="symbol">Cl</div>
+                                    <div class="mass">35.45</div>
+                                    <p class="name">Chlorine</p>
+                                </div>
+                            </div>
+
+                            <!-- Argon -->
+                            <div class="col custom-col" style="grid-column: 18;">
+                                <div class="gas li Noble">
+                                    <span class="number">18</span>
+                                    <div class="symbol">Ar</div>
+                                    <div class="mass">39.95</div>
+                                    <p class="name">Argon</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ================================== Fourth Row ================================== -->
+                    <div class="row ">
+                        <div class="grid-container">
+
+                            <!-- Potassium -->
+                            <div class="col custom-col">
+                                <div class="gas li Alkali">
+                                    <span class="number">19</span>
+                                    <div class="symbol">K</div>
+                                    <div class="mass">39.10</div>
+                                    <p class="name">Potassium</p>
+                                </div>
+                            </div>
+
+                            <!-- Calcium -->
+                            <div class="col custom-col">
+                                <div class="gas li Alkaline">
+                                    <span class="number">20</span>
+                                    <div class="symbol">Ca</div>
+                                    <div class="mass">40.08</div>
+                                    <p class="name">Calcium</p>
+                                </div>
+                            </div>
+
+                            <!-- Scandium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">21</span>
+                                    <div class="symbol">Sc</div>
+                                    <div class="mass">44.96</div>
+                                    <p class="name">Scandium</p>
+                                </div>
+                            </div>
+
+                            <!-- Titanium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">22</span>
+                                    <div class="symbol">Ti</div>
+                                    <div class="mass">47.87</div>
+                                    <p class="name">Titanium</p>
+                                </div>
+                            </div>
+
+                            <!-- Vanadium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">23</span>
+                                    <div class="symbol">V</div>
+                                    <div class="mass">50.94</div>
+                                    <p class="name">Vanadium</p>
+                                </div>
+                            </div>
+
+                            <!-- Chromium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">24</span>
+                                    <div class="symbol">Cr</div>
+                                    <div class="mass">51.996</div>
+                                    <p class="name">Chromium</p>
+                                </div>
+                            </div>
+
+                            <!-- Manganese -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">25</span>
+                                    <div class="symbol">Mn</div>
+                                    <div class="mass">54.94</div>
+                                    <p class="name">Manganese</p>
+                                </div>
+                            </div>
+
+                            <!-- Iron -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">26</span>
+                                    <div class="symbol">Fe</div>
+                                    <div class="mass">55.85</div>
+                                    <p class="name">Iron</p>
+                                </div>
+                            </div>
+
+                            <!-- Cobalt -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">27</span>
+                                    <div class="symbol">Co</div>
+                                    <div class="mass">58.93</div>
+                                    <p class="name">Cobalt</p>
+                                </div>
+                            </div>
+
+                            <!-- Nickel -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">28</span>
+                                    <div class="symbol">Ni</div>
+                                    <div class="mass">58.69</div>
+                                    <p class="name">Nickel</p>
+                                </div>
+                            </div>
+
+                            <!-- Copper -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">29</span>
+                                    <div class="symbol">Cu</div>
+                                    <div class="mass">63.55</div>
+                                    <p class="name">Copper</p>
+                                </div>
+                            </div>
+
+                            <!-- Zinc -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">30</span>
+                                    <div class="symbol">Zn</div>
+                                    <div class="mass">65.38</div>
+                                    <p class="name">Zinc</p>
+                                </div>
+                            </div>
+
+                            <!-- Gallium -->
+                            <div class="col custom-col">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">31</span>
+                                    <div class="symbol">Ga</div>
+                                    <div class="mass">69.72</div>
+                                    <p class="name">Gallium</p>
+                                </div>
+                            </div>
+
+                            <!-- Germanium -->
+                            <div class="col custom-col">
+                                <div class="gas li Semimetals">
+                                    <span class="number">32</span>
+                                    <div class="symbol">Ge</div>
+                                    <div class="mass">72.63</div>
+                                    <p class="name">Germanium</p>
+                                </div>
+                            </div>
+
+                            <!-- Arsenic -->
+                            <div class="col custom-col">
+                                <div class="gas li Semimetals">
+                                    <span class="number">33</span>
+                                    <div class="symbol">As</div>
+                                    <div class="mass">74.92</div>
+                                    <p class="name">Arsenic</p>
+                                </div>
+                            </div>
+
+                            <!-- Selenium -->
+                            <div class="col custom-col">
+                                <div class="gas li Nonmetals">
+                                    <span class="number">34</span>
+                                    <div class="symbol">Se</div>
+                                    <div class="mass">78.96</div>
+                                    <p class="name">Selenium</p>
+                                </div>
+                            </div>
+
+                            <!-- Bromine -->
+                            <div class="col custom-col">
+                                <div class="gas li Halogens">
+                                    <span class="number">35</span>
+                                    <div class="symbol">Br</div>
+                                    <div class="mass">79.90</div>
+                                    <p class="name">Bromine</p>
+                                </div>
+                            </div>
+
+                            <!-- Krypton -->
+                            <div class="col custom-col">
+                                <div class="gas li Noble">
+                                    <span class="number">36</span>
+                                    <div class="symbol">Kr</div>
+                                    <div class="mass">83.80</div>
+                                    <p class="name">Krypton</p>
+                                </div>
+                            </div>
+
+                        
+                        </div>
+                    </div>
+
+                    <!-- ================================== Fifth Row ================================== -->
+                    <div class="row ">
+                        <div class="grid-container">
+
+                            <!-- Rubidium -->
+                            <div class="col custom-col">
+                                <div class="gas li Alkali">
+                                    <span class="number">37</span>
+                                    <div class="symbol">Rb</div>
+                                    <div class="mass">85.47</div>
+                                    <p class="name">Rubidium</p>
+                                </div>
+                            </div>
+
+                            <!-- Strontium -->
+                            <div class="col custom-col">
+                                <div class="gas li Alkaline">
+                                    <span class="number">38</span>
+                                    <div class="symbol">Sr</div>
+                                    <div class="mass">87.62</div>
+                                    <p class="name">Strontium</p>
+                                </div>
+                            </div>
+
+                            <!-- Yttrium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">39</span>
+                                    <div class="symbol">Y</div>
+                                    <div class="mass">88.91</div>
+                                    <p class="name">Yttrium</p>
+                                </div>
+                            </div>
+
+                            <!-- Zirconium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">40</span>
+                                    <div class="symbol">Zr</div>
+                                    <div class="mass">91.22</div>
+                                    <p class="name">Zirconium</p>
+                                </div>
+                            </div>
+
+                            <!-- Niobium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">41</span>
+                                    <div class="symbol">Nb</div>
+                                    <div class="mass">92.91</div>
+                                    <p class="name">Niobium</p>
+                                </div>
+                            </div>
+
+                            <!-- Molybdenum -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">42</span>
+                                    <div class="symbol">Mo</div>
+                                    <div class="mass">95.94</div>
+                                    <p class="name">Molybdenum</p>
+                                </div>
+                            </div>
+
+                            <!-- Technetium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">43</span>
+                                    <div class="symbol">Tc</div>
+                                    <div class="mass">98.00</div>
+                                    <p class="name">Technetium</p>
+                                </div>
+                            </div>
+
+                            <!-- Ruthenium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">44</span>
+                                    <div class="symbol">Ru</div>
+                                    <div class="mass">101.1</div>
+                                    <p class="name">Ruthenium</p>
+                                </div>
+                            </div>
+
+                            <!-- Rhodium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">45</span>
+                                    <div class="symbol">Rh</div>
+                                    <div class="mass">102.91</div>
+                                    <p class="name">Rhodium</p>
+                                </div>
+                            </div>
+
+                            <!-- Palladium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">46</span>
+                                    <div class="symbol">Pd</div>
+                                    <div class="mass">106.42</div>
+                                    <p class="name">Palladium</p>
+                                </div>
+                            </div>
+
+                            <!-- Silver -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">47</span>
+                                    <div class="symbol">Ag</div>
+                                    <div class="mass">107.87</div>
+                                    <p class="name">Silver</p>
+                                </div>
+                            </div>
+
+                            <!-- Cadmium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">48</span>
+                                    <div class="symbol">Cd</div>
+                                    <div class="mass">112.41</div>
+                                    <p class="name">Cadmium</p>
+                                </div>
+                            </div>
+
+                            <!-- Indium -->
+                            <div class="col custom-col">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">49</span>
+                                    <div class="symbol">In</div>
+                                    <div class="mass">114.82</div>
+                                    <p class="name">Indium</p>
+                                </div>
+                            </div>
+
+                            <!-- Tin -->
+                            <div class="col custom-col">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">50</span>
+                                    <div class="symbol">Sn</div>
+                                    <div class="mass">118.71</div>
+                                    <p class="name">Tin</p>
+                                </div>
+                            </div>
+
+                            <!-- Antimony -->
+                            <div class="col custom-col">
+                                <div class="gas li Semimetals">
+                                    <span class="number">51</span>
+                                    <div class="symbol">Sb</div>
+                                    <div class="mass">121.76</div>
+                                    <p class="name">Antimony</p>
+                                </div>
+                            </div>
+
+                            <!-- Tellurium -->
+                            <div class="col custom-col">
+                                <div class="gas li Semimetals">
+                                    <span class="number">52</span>
+                                    <div class="symbol">Te</div>
+                                    <div class="mass">127.60</div>
+                                    <p class="name">Tellurium</p>
+                                </div>
+                            </div>
+
+                            <!-- Iodine -->
+                            <div class="col custom-col">
+                                <div class="gas li Halogens">
+                                    <span class="number">53</span>
+                                    <div class="symbol">I</div>
+                                    <div class="mass">126.90</div>
+                                    <p class="name">Iodine</p>
+                                </div>
+                            </div>
+
+                            <!-- Xenon -->
+                            <div class="col custom-col">
+                                <div class="gas li Noble">
+                                    <span class="number">54</span>
+                                    <div class="symbol">Xe</div>
+                                    <div class="mass">131.29</div>
+                                    <p class="name">Xenon</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- ================================== Six Row ================================== -->
+                    <div class="row ">
+                        <div class="grid-container">
+
+                            <!-- Cesium -->
+                            <div class="col custom-col">
+                                <div class="gas li Alkali">
+                                    <span class="number">55</span>
+                                    <div class="symbol">Cs</div>
+                                    <div class="mass">132.91</div>
+                                    <p class="name">Cesium</p>
+                                </div>
+                            </div>
+
+                            <!-- Barium -->
+                            <div class="col custom-col">
+                                <div class="gas li Alkaline">
+                                    <span class="number">56</span>
+                                    <div class="symbol">Ba</div>
+                                    <div class="mass">137.33</div>
+                                    <p class="name">Barium</p>
+                                </div>
+                            </div>
+
+                            <!-- Lanthanum -->
+                            <div class="col custom-col">
+                                <div class="gas li Lanthanides">
+                                    <span class="number"></span>
+                                    <div class="symbol"></div>
+                                    <div class="mass"></div>
+                                    <p class="name">Lanthanide</p>
+                                </div>
+                            </div>
+
+                            <!-- Hafnium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">72</span>
+                                    <div class="symbol">Hf</div>
+                                    <div class="mass">178.49</div>
+                                    <p class="name">Hafnium</p>
+                                </div>
+                            </div>
+
+                            <!-- Tantalum -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">73</span>
+                                    <div class="symbol">Ta</div>
+                                    <div class="mass">180.95</div>
+                                    <p class="name">Tantalum</p>
+                                </div>
+                            </div>
+
+                            <!-- Tungsten -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">74</span>
+                                    <div class="symbol">W</div>
+                                    <div class="mass">183.84</div>
+                                    <p class="name">Tungsten</p>
+                                </div>
+                            </div>
+
+                            <!-- Rhenium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">75</span>
+                                    <div class="symbol">Re</div>
+                                    <div class="mass">186.21</div>
+                                    <p class="name">Rhenium</p>
+                                </div>
+                            </div>
+
+                            <!-- Osmium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">76</span>
+                                    <div class="symbol">Os</div>
+                                    <div class="mass">190.23</div>
+                                    <p class="name">Osmium</p>
+                                </div>
+                            </div>
+
+                            <!-- Iridium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">77</span>
+                                    <div class="symbol">Ir</div>
+                                    <div class="mass">192.22</div>
+                                    <p class="name">Iridium</p>
+                                </div>
+                            </div>
+
+                            <!-- Platinum -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">78</span>
+                                    <div class="symbol">Pt</div>
+                                    <div class="mass">195.08</div>
+                                    <p class="name">Platinum</p>
+                                </div>
+                            </div>
+
+                            <!-- Gold -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">79</span>
+                                    <div class="symbol">Au</div>
+                                    <div class="mass">196.97</div>
+                                    <p class="name">Gold</p>
+                                </div>
+                            </div>
+
+                            <!-- Mercury -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">80</span>
+                                    <div class="symbol">Hg</div>
+                                    <div class="mass">200.59</div>
+                                    <p class="name">Mercury</p>
+                                </div>
+                            </div>
+
+                            <!-- Thallium -->
+                            <div class="col custom-col">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">81</span>
+                                    <div class="symbol">Tl</div>
+                                    <div class="mass">204.38</div>
+                                    <p class="name">Thallium</p>
+                                </div>
+                            </div>
+
+                            <!-- Lead -->
+                            <div class="col custom-col">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">82</span>
+                                    <div class="symbol">Pb</div>
+                                    <div class="mass">207.2</div>
+                                    <p class="name">Lead</p>
+                                </div>
+                            </div>
+
+                            <!-- Bismuth -->
+                            <div class="col custom-col">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">83</span>
+                                    <div class="symbol">Bi</div>
+                                    <div class="mass">208.98</div>
+                                    <p class="name">Bismuth</p>
+                                </div>
+                            </div>
+
+                            <!-- Polonium -->
+                            <div class="col custom-col">
+                                <div class="gas li Semimetals">
+                                    <span class="number">84</span>
+                                    <div class="symbol">Po</div>
+                                    <div class="mass">209.00</div>
+                                    <p class="name">Polonium</p>
+                                </div>
+                            </div>
+
+                            <!-- Astatine -->
+                            <div class="col custom-col">
+                                <div class="gas li Halogens">
+                                    <span class="number">85</span>
+                                    <div class="symbol">At</div>
+                                    <div class="mass">210.00</div>
+                                    <p class="name">Astatine</p>
+                                </div>
+                            </div>
+
+                            <!-- Radon -->
+                            <div class="col custom-col">
+                                <div class="gas li Noble">
+                                    <span class="number">86</span>
+                                    <div class="symbol">Rn</div>
+                                    <div class="mass">222.00</div>
+                                    <p class="name">Radon</p>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                    <!-- ================================== Seven Row ================================== -->
+                    <div class="row ">
+                        <div class="grid-container">
+
+                            <!-- Francium -->
+                            <div class="col custom-col">
+                                <div class="gas li Alkali">
+                                    <span class="number">87</span>
+                                    <div class="symbol">Fr</div>
+                                    <div class="mass">223.00</div>
+                                    <p class="name">Francium</p>
+                                </div>
+                            </div>
+
+                            <!-- Radium -->
+                            <div class="col custom-col">
+                                <div class="gas li Alkaline">
+                                    <span class="number">88</span>
+                                    <div class="symbol">Ra</div>
+                                    <div class="mass">226.03</div>
+                                    <p class="name">Radium</p>
+                                </div>
+                            </div>
+
+                            <!-- Radium -->
+                            <div class="col custom-col">
+                                <div class="gas li Actinides">
+                                    <span class="number"></span>
+                                    <div class="symbol"></div>
+                                    <div class="mass"></div>
+                                    <p class="name">Actinides</p>
+                                </div>
+                            </div>
+
+                            <!-- Rutherfordium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">104</span>
+                                    <div class="symbol">Rf</div>
+                                    <div class="mass">267.00</div>
+                                    <p class="name">Rutherfordium</p>
+                                </div>
+                            </div>
+
+                            <!-- Dubnium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">105</span>
+                                    <div class="symbol">Db</div>
+                                    <div class="mass">270.00</div>
+                                    <p class="name">Dubnium</p>
+                                </div>
+                            </div>
+
+                            <!-- Seaborgium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">106</span>
+                                    <div class="symbol">Sg</div>
+                                    <div class="mass">271.00</div>
+                                    <p class="name">Seaborgium</p>
+                                </div>
+                            </div>
+
+                            <!-- Bohrium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">107</span>
+                                    <div class="symbol">Bh</div>
+                                    <div class="mass">270.00</div>
+                                    <p class="name">Bohrium</p>
+                                </div>
+                            </div>
+
+                            <!-- Hassium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">108</span>
+                                    <div class="symbol">Hs</div>
+                                    <div class="mass">277.00</div>
+                                    <p class="name">Hassium</p>
+                                </div>
+                            </div>
+
+                            <!-- Meitnerium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">109</span>
+                                    <div class="symbol">Mt</div>
+                                    <div class="mass">276.00</div>
+                                    <p class="name">Meitnerium</p>
+                                </div>
+                            </div>
+
+                            <!-- Darmstadtium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">110</span>
+                                    <div class="symbol">Ds</div>
+                                    <div class="mass">281.00</div>
+                                    <p class="name">Darmstadtium</p>
+                                </div>
+                            </div>
+
+                            <!-- Roentgenium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">111</span>
+                                    <div class="symbol">Rg</div>
+                                    <div class="mass">280.00</div>
+                                    <p class="name">Roentgenium</p>
+                                </div>
+                            </div>
+
+                            <!-- Copernicium -->
+                            <div class="col custom-col">
+                                <div class="gas li Transition">
+                                    <span class="number">112</span>
+                                    <div class="symbol">Cn</div>
+                                    <div class="mass">285.00</div>
+                                    <p class="name">Copernicium</p>
+                                </div>
+                            </div>
+
+                            <!-- Nihonium -->
+                            <div class="col custom-col">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">113</span>
+                                    <div class="symbol">Nh</div>
+                                    <div class="mass">284.00</div>
+                                    <p class="name">Nihonium</p>
+                                </div>
+                            </div>
+
+                            <!-- Flerovium -->
+                            <div class="col custom-col">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">114</span>
+                                    <div class="symbol">Fl</div>
+                                    <div class="mass">289.00</div>
+                                    <p class="name">Flerovium</p>
+                                </div>
+                            </div>
+
+                            <!-- Moscovium -->
+                            <div class="col custom-col">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">115</span>
+                                    <div class="symbol">Mc</div>
+                                    <div class="mass">290.00</div>
+                                    <p class="name">Moscovium</p>
+                                </div>
+                            </div>
+
+                            <!-- Livermorium -->
+                            <div class="col custom-col">
+                                <div class="gas li Basicmetal">
+                                    <span class="number">116</span>
+                                    <div class="symbol">Lv</div>
+                                    <div class="mass">293.00</div>
+                                    <p class="name">Livermorium</p>
+                                </div>
+                            </div>
+
+                            <!-- Tennessine -->
+                            <div class="col custom-col">
+                                <div class="gas li Halogens">
+                                    <span class="number">117</span>
+                                    <div class="symbol">Ts</div>
+                                    <div class="mass">294.00</div>
+                                    <p class="name">Tennessine</p>
+                                </div>
+                            </div>
+
+                            <!-- Oganesson -->
+                            <div class="col custom-col">
+                                <div class="gas li Noble">
+                                    <span class="number">118</span>
+                                    <div class="symbol">Og</div>
+                                    <div class="mass">294.00</div>
+                                    <p class="name">Oganesson</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- ================================== Eight Row ================================== -->
+                    <div class="row">
+                        <div class="grid-container">
+
+                            <!-- text -->
+                            <div class="col custom-col" style="grid-column: 2;">
+                                <div class="PT-text-center">
+                                    <p class="PT-text">Lanthanides</p> 
+                                    <p class="PT-text">Series</p>  
+                                </div>
+                            </div>
+
+                            
+                            <!-- Lanthanum -->
+                            <div class="col custom-col" style="grid-column: 3;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">57</span>
+                                    <div class="symbol">La</div>
+                                    <div class="mass">138.91</div>
+                                    <p class="name">Lanthanum</p>
+                                </div>
+                            </div>
+
+                            <!-- Cerium -->
+                            <div class="col custom-col" style="grid-column: 4;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">58</span>
+                                    <div class="symbol">Ce</div>
+                                    <div class="mass">140.12</div>
+                                    <p class="name">Cerium</p>
+                                </div>
+                            </div>
+
+                            <!-- Praseodymium -->
+                            <div class="col custom-col" style="grid-column: 5;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">59</span>
+                                    <div class="symbol">Pr</div>
+                                    <div class="mass">140.91</div>
+                                    <p class="name">Praseodymium</p>
+                                </div>
+                            </div>
+
+                            <!-- Neodymium -->
+                            <div class="col custom-col" style="grid-column: 6;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">60</span>
+                                    <div class="symbol">Nd</div>
+                                    <div class="mass">144.24</div>
+                                    <p class="name">Neodymium</p>
+                                </div>
+                            </div>
+
+                            <!-- Promethium -->
+                            <div class="col custom-col" style="grid-column: 7;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">61</span>
+                                    <div class="symbol">Pm</div>
+                                    <div class="mass">145.00</div>
+                                    <p class="name">Promethium</p>
+                                </div>
+                            </div>
+
+                            <!-- Samarium -->
+                            <div class="col custom-col" style="grid-column: 8;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">62</span>
+                                    <div class="symbol">Sm</div>
+                                    <div class="mass">150.36</div>
+                                    <p class="name">Samarium</p>
+                                </div>
+                            </div>
+
+                            <!-- Europium -->
+                            <div class="col custom-col" style="grid-column: 9;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">63</span>
+                                    <div class="symbol">Eu</div>
+                                    <div class="mass">151.98</div>
+                                    <p class="name">Europium</p>
+                                </div>
+                            </div>
+
+                            <!-- Gadolinium -->
+                            <div class="col custom-col" style="grid-column: 10;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">64</span>
+                                    <div class="symbol">Gd</div>
+                                    <div class="mass">157.25</div>
+                                    <p class="name">Gadolinium</p>
+                                </div>
+                            </div>
+
+                            <!-- Terbium -->
+                            <div class="col custom-col" style="grid-column: 11;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">65</span>
+                                    <div class="symbol">Tb</div>
+                                    <div class="mass">158.93</div>
+                                    <p class="name">Terbium</p>
+                                </div>
+                            </div>
+
+                            <!-- Dysprosium -->
+                            <div class="col custom-col" style="grid-column: 12;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">66</span>
+                                    <div class="symbol">Dy</div>
+                                    <div class="mass">162.50</div>
+                                    <p class="name">Dysprosium</p>
+                                </div>
+                            </div>
+
+                            <!-- Holmium -->
+                            <div class="col custom-col" style="grid-column: 13;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">67</span>
+                                    <div class="symbol">Ho</div>
+                                    <div class="mass">164.93</div>
+                                    <p class="name">Holmium</p>
+                                </div>
+                            </div>
+
+                            <!-- Erbium -->
+                            <div class="col custom-col" style="grid-column: 14;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">68</span>
+                                    <div class="symbol">Er</div>
+                                    <div class="mass">167.26</div>
+                                    <p class="name">Erbium</p>
+                                </div>
+                            </div>
+
+                            <!-- Thulium -->
+                            <div class="col custom-col" style="grid-column: 15;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">69</span>
+                                    <div class="symbol">Tm</div>
+                                    <div class="mass">168.93</div>
+                                    <p class="name">Thulium</p>
+                                </div>
+                            </div>
+
+                            <!-- Ytterbium -->
+                            <div class="col custom-col" style="grid-column: 16;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">70</span>
+                                    <div class="symbol">Yb</div>
+                                    <div class="mass">173.04</div>
+                                    <p class="name">Ytterbium</p>
+                                </div>
+                            </div>
+
+                            <!-- Lutetium -->
+                            <div class="col custom-col" style="grid-column: 17;">
+                                <div class="gas li Lanthanides">
+                                    <span class="number">71</span>
+                                    <div class="symbol">Lu</div>
+                                    <div class="mass">175.00</div>
+                                    <p class="name">Lutetium</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- ================================== Ninth Row ================================== -->
+                    <div class="row">
+                        <div class="grid-container">
+
+                            <!-- text -->
+                            <div class="col custom-col" style="grid-column: 2;">
+                                <div class="PT-text-center">
+                                    <p class="PT-text">Actinides</p> 
+                                    <p class="PT-text">Series</p>  
+                                </div>
+                            </div>
+
+                            
+                            <!-- Actinium -->
+                            <div class="col custom-col" style="grid-column: 3;">
+                                <div class="gas li Actinides">
+                                    <span class="number">89</span>
+                                    <div class="symbol">Ac</div>
+                                    <div class="mass">227.00</div>
+                                    <p class="name">Actinium</p>
+                                </div>
+                            </div>
+
+                            <!-- Thorium -->
+                            <div class="col custom-col" style="grid-column: 4;">
+                                <div class="gas li Actinides">
+                                    <span class="number">90</span>
+                                    <div class="symbol">Th</div>
+                                    <div class="mass">232.04</div>
+                                    <p class="name">Thorium</p>
+                                </div>
+                            </div>
+
+                            <!-- Protactinium -->
+                            <div class="col custom-col" style="grid-column: 5;">
+                                <div class="gas li Actinides">
+                                    <span class="number">91</span>
+                                    <div class="symbol">Pa</div>
+                                    <div class="mass">231.04</div>
+                                    <p class="name">Protactinium</p>
+                                </div>
+                            </div>
+
+                            <!-- Uranium -->
+                            <div class="col custom-col" style="grid-column: 6;">
+                                <div class="gas li Actinides">
+                                    <span class="number">92</span>
+                                    <div class="symbol">U</div>
+                                    <div class="mass">238.03</div>
+                                    <p class="name">Uranium</p>
+                                </div>
+                            </div>
+
+                            <!-- Neptunium -->
+                            <div class="col custom-col" style="grid-column: 7;">
+                                <div class="gas li Actinides">
+                                    <span class="number">93</span>
+                                    <div class="symbol">Np</div>
+                                    <div class="mass">237.00</div>
+                                    <p class="name">Neptunium</p>
+                                </div>
+                            </div>
+
+                            <!-- Plutonium -->
+                            <div class="col custom-col" style="grid-column: 8;">
+                                <div class="gas li Actinides">
+                                    <span class="number">94</span>
+                                    <div class="symbol">Pu</div>
+                                    <div class="mass">244.00</div>
+                                    <p class="name">Plutonium</p>
+                                </div>
+                            </div>
+
+                            <!-- Americium -->
+                            <div class="col custom-col" style="grid-column: 9;">
+                                <div class="gas li Actinides">
+                                    <span class="number">95</span>
+                                    <div class="symbol">Am</div>
+                                    <div class="mass">243.00</div>
+                                    <p class="name">Americium</p>
+                                </div>
+                            </div>
+
+                            <!-- Curium -->
+                            <div class="col custom-col" style="grid-column: 10;">
+                                <div class="gas li Actinides">
+                                    <span class="number">96</span>
+                                    <div class="symbol">Cm</div>
+                                    <div class="mass">247.00</div>
+                                    <p class="name">Curium</p>
+                                </div>
+                            </div>
+
+                            <!-- Berkelium -->
+                            <div class="col custom-col" style="grid-column: 11;">
+                                <div class="gas li Actinides">
+                                    <span class="number">97</span>
+                                    <div class="symbol">Bk</div>
+                                    <div class="mass">247.00</div>
+                                    <p class="name">Berkelium</p>
+                                </div>
+                            </div>
+
+                            <!-- Californium -->
+                            <div class="col custom-col" style="grid-column: 12;">
+                                <div class="gas li Actinides">
+                                    <span class="number">98</span>
+                                    <div class="symbol">Cf</div>
+                                    <div class="mass">251.00</div>
+                                    <p class="name">Californium</p>
+                                </div>
+                            </div>
+
+                            <!-- Einsteinium -->
+                            <div class="col custom-col" style="grid-column: 13;">
+                                <div class="gas li Actinides">
+                                    <span class="number">99</span>
+                                    <div class="symbol">Es</div>
+                                    <div class="mass">252.00</div>
+                                    <p class="name">Einsteinium</p>
+                                </div>
+                            </div>
+
+                            <!-- Fermium -->
+                            <div class="col custom-col" style="grid-column: 14;">
+                                <div class="gas li Actinides">
+                                    <span class="number">100</span>
+                                    <div class="symbol">Fm</div>
+                                    <div class="mass">257.00</div>
+                                    <p class="name">Fermium</p>
+                                </div>
+                            </div>
+
+                            <!-- Mendelevium -->
+                            <div class="col custom-col" style="grid-column: 15;">
+                                <div class="gas li Actinides">
+                                    <span class="number">101</span>
+                                    <div class="symbol">Md</div>
+                                    <div class="mass">258.00</div>
+                                    <p class="name">Mendelevium</p>
+                                </div>
+                            </div>
+
+                            <!-- Nobelium -->
+                            <div class="col custom-col" style="grid-column: 16;">
+                                <div class="gas li Actinides">
+                                    <span class="number">102</span>
+                                    <div class="symbol">No</div>
+                                    <div class="mass">259.00</div>
+                                    <p class="name">Nobelium</p>
+                                </div>
+                            </div>
+
+                            <!-- Lawrencium -->
+                            <div class="col custom-col" style="grid-column: 17;">
+                                <div class="gas li Actinides">
+                                    <span class="number">103</span>
+                                    <div class="symbol">Lr</div>
+                                    <div class="mass">262.00</div>
+                                    <p class="name">Lawrencium</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/PTscript.js"></script>
+</body>
+</html>
